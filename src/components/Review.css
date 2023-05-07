@@ -1,0 +1,17 @@
+.container {
+    background-color: white;
+}
+
+img {
+    width: 150px !important;
+    margin-bottom: 20px;
+}
+
+textarea {
+    max-width: 450px;
+}
+
+.btn-nmg {
+    background-color: #C10A28 !important;
+    color: white !important;
+}
