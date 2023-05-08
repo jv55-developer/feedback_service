@@ -33,7 +33,9 @@ export default function Review() {
     }, err => {
         console.log(err)
     })
-  }, [additional_comment, id, param_recipient, param_sender, param_value])
+
+    console.log('email sent')
+  }, [id, param_recipient, param_sender, param_value])
 
   useEffect(() => {
     email_sent()
